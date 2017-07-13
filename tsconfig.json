@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [ "scripthost", "dom", "es2015.promise", "esnext" ],
+	"types": [ "node" ],
+	"typeRoots": [ "node_modules/@types" ],
+    "allowJs": false,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "strict": true,
+	"noEmitOnError": true,
+	"noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+	"moduleResolution": "node",
+    "baseUrl": "./src",
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true
+  }
+}
